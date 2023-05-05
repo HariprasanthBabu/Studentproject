@@ -37,7 +37,7 @@ public class StudentDetailController {
 		return studSer.getvalue(id);
 	}
 
-	@DeleteMapping(value = "/deleteid/{id}")
+	@DeleteMapping(value = "/deleteidforStudent/{id}")
 	public String deleteId(@PathVariable int id) {
 		return studSer.deleteId(id);
 	}
